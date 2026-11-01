@@ -4,6 +4,8 @@
 
 A nyers socketlista helyett a dashboard kategóriát és aktivitást mutat. Egy Windows hub gyűjt helyben, egy Ubuntu agent körülbelül félpercenként küldi a távoli gép állapotát.
 
+Ez a **helyi** párja a szerveren futó Node-RED port-figyelőnek. A szerveres példány nem nyilvános, ezért nincs rá link; a portfólióban a két projekt egy kártyán szerepel.
+
 ## Felület
 
 - **Listeners** — helyi és távoli LISTEN portok, a fejlesztői eszközök kiemelve, valamint a Caddy site-ok kártyán.
