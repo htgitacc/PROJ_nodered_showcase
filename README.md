@@ -10,7 +10,6 @@ Ez a **helyi** párja a szerveren futó Node-RED port-figyelőnek. A szerveres p
 
 - **Listeners** — helyi és távoli LISTEN portok, a fejlesztői eszközök kiemelve, valamint a Caddy site-ok kártyán.
 - **Host metrics** — a távoli gép memóriája, terhelése és hálózata az utolsó 1, 6 vagy 24 órában.
-- **Local metrics** — a hub gépe: memória, CPU, és GPU, ha a vezérlő kihasználtságot ad. A lemez csak akkor jelenik meg, ha a szabad hely 10% alá esik.
 
 ## Hogyan áll össze
 
