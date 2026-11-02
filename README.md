@@ -8,8 +8,9 @@ Ez a **helyi** párja a szerveren futó Node-RED port-figyelőnek. A szerveres p
 
 ## Felület
 
-- **Listeners** — helyi és távoli LISTEN portok, a fejlesztői eszközök kiemelve, valamint a Caddy site-ok kártyán.
-- **Host metrics** — a távoli gép memóriája, terhelése és hálózata az utolsó 1, 6 vagy 24 órában.
+- **Listeners** — helyi és távoli LISTEN portok, a fejlesztői eszközök kiemelve. A Caddy site-ok kártyán: a mögöttes port, a helyi HTTPS válasz (5xx sárga) és a tanúsítvány lejárata.
+- **Cron** — megnevezett ütemezett feladatok kártyán. A szín a legutóbbi siker ideje, nem az, hogy a cron démon fut.
+- **Host metrics** — a távoli gép memóriája, terhelése és hálózata. 1, 6 és 24 óra nyers minta, 7 nap 10 perces átlag.
 
 ## Hogyan áll össze
 
